@@ -1,6 +1,7 @@
-{
+﻿{
   "pages":[   
-    "pages/index/index",
+   
+ "pages/index/index",
     "pages/playup/playup",
     "pages/heart/heart",
     "pages/adventure/adventure",
