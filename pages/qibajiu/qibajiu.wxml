@@ -1,0 +1,30 @@
+<!--pages/qibajiu/qibajiu.wxml-->
+<view class='terminal_all' hidden='{{terminal}}' bindtap='xiaoshi'>
+  <view class='terminal'>
+    <image src='{{roleUrl}}' class='imageshow-han' mode='scaleToFill'></image>
+    <image src='{{deleate}}' class='imageshow-deleate' mode='scaleToFill'></image>
+  </view>
+  
+</view>
+<view class='container' style="background:url('{{inviteback}}');background-size:100% 100%;">
+  <image bindtap='closemusic' src='{{music?openmusic:closemusic}}' class='music'></image>
+  <view class='show-viewa'>
+    <view class='contain-right' bindtap='showRole'>
+      <text>规</text>
+      <text>则</text>
+    </view>
+    <view class='show-viewb'>大家都在玩的行酒令</view>
+    <image src='{{plate}}' class='state-imageall'></image>
+      <view class="stage">
+        <image src='{{pica}}' class='stage-image' mode='scaleToFill'></image>
+      </view>
+      <view class="stagea">
+        <image src='{{picb}}' class='stage-image' mode='scaleToFill'></image>
+      </view>
+    <view class='snake'>{{wenan}}</view>
+    <view class="stageb" bindtap='snakeOne' animation="{{animationData}}">
+      <image src='{{waveing}}' class='stageb-image' mode='scaleToFill'></image>
+    </view>
+    <view class='snakea' hidden='{{buttonHidden}}' bindtap='snakeTwo'>摇一摇，看看手气如何</view>
+  </view>
+</view>

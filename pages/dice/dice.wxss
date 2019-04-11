@@ -1,0 +1,252 @@
+/* pages/dice/dice.wxss */
+page {
+  font-family: "PingFang-SC-Bold";
+  overflow: hidden;
+  /* background: gainsboro; */
+}
+.music{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.terminal {
+  position: relative;
+  width: 650rpx;
+  height: 700rpx;
+  font-size: 32rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:rgba(255,254,254,1);
+}
+.scroll-view{
+  height: 570rpx;
+}
+/* ::-webkit-scrollbar
+{
+width: 8rpx;
+height: 110rpx;
+border-radius: 10px;
+background-color: #ffffff;
+} */
+.ter-viewa{
+  display: flex;
+  margin-top: 44rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ter-viewb{
+  padding: 30rpx;
+  line-height: 55rpx;
+}
+.ter-viewc{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10rpx 30rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:rgba(255,254,254,1);
+}
+.ter-viewd{
+  display: flex;
+  line-height: 55rpx;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.imageshow-han {
+  width: 650rpx;
+  height: 700rpx;
+}
+
+.imageshow-deleate {
+  position: absolute;
+  right: 18rpx;
+  top: 18rpx;
+  width: 26rpx;
+  height: 26rpx;
+}
+
+.contain-right {
+  position: fixed;
+  right: 0;
+  z-index: 444;
+  top: 168rpx;
+  width: 46rpx;
+  height: 124rpx;
+  font-weight: 500;
+  font-size: 30rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  background: #FEC600;
+  color: #C5701D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-viewb {
+  font-family: "FZLXTJW--GB1-0";
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 112rpx;
+}
+.shadow-image{
+  width: 460rpx;
+  height: 140rpx;
+}
+.snake {
+  position: absolute;
+  width: 100%;
+  font-family: "PingFang-SC-Bold";
+  color: #ffe900;
+  top: 66%;
+  font-size: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bigBox{
+   position: absolute;
+  top: 356rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 572rpx;
+}
+.show-viewd{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dShow{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 40rpx;
+}
+.dShow2{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  bottom: 40rpx;
+  right: 40rpx;
+}
+.state-imageall {
+  height: 572rpx;
+  width: 574rpx;
+}
+.show-viewe{
+  position: absolute;
+  top: 254rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stagee-image{
+  width: 500rpx;
+  height: 346rpx;
+}
+.stage-image {
+  width: 91rpx;
+  height: 85rpx;
+}
+.show-viewf{
+  position: absolute;
+  top: 590rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stagef-image {
+  width: 574rpx;
+  height: 320rpx;
+}
+.stageaa {
+  position: absolute;
+  top: 632rpx;
+  left: 260rpx;
+}
+
+.stageab {
+  position: absolute;
+  top: 632rpx;
+  left: 398rpx;
+}
+.stageac{
+  position: absolute;
+  top: 720rpx;
+  left: 196rpx;
+}
+.stagead{
+  position: absolute;
+  top: 720rpx;
+  left: 328rpx;
+}
+.stageae{
+  position: absolute;
+  top: 720rpx;
+  left: 464rpx;
+}
+.stageb {
+  position: absolute;
+  top: 1000rpx;
+  left: 0;
+  right: 0;
+  font-family: 'PingFang-SC-Medium';
+  display: flex;
+  font-size: 28rpx;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stageb-image {
+  margin-right: 10rpx;
+  width: 112rpx;
+  height: 112rpx;
+}
+.show-viewc{
+  position: absolute;
+  top: 642rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stagec-image {
+  width: 96rpx;
+  height: 96rpx;
+}
+

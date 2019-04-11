@@ -1,0 +1,169 @@
+/* pages/ratiosize/ratiosize.wxss */
+
+page {
+  font-family: "PingFang-SC-Bold";
+  background: gainsboro;
+}
+
+.terminal {
+  position: relative;
+}
+.music{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.imageshow-han {
+  width: 650rpx;
+  height: 350rpx;
+}
+
+.imageshow-deleate {
+  position: absolute;
+  right: 18rpx;
+  top: 18rpx;
+  width: 26rpx;
+  height: 26rpx;
+}
+
+.contain-right {
+  position: fixed;
+  right: 0;
+  z-index: 444;
+  top: 168rpx;
+  width: 46rpx;
+  height: 124rpx;
+  font-weight: 500;
+  font-size: 30rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  background: #f36;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-viewb {
+  color: #60f;
+  font-size: 56rpx;
+  font-family: "SourceHanSansCN-Bold";
+  text-align: center;
+  letter-spacing: 1rpx;
+  position: absolute;
+  width: 100%;
+  top: 70rpx;
+}
+
+.show-viewc {
+  color: #60f;
+  font-size: 73rpx;
+  font-family: "SourceHanSansCN-Bold";
+  text-align: center;
+  letter-spacing: 1rpx;
+  position: absolute;
+  font-weight: 700;
+  width: 100%;
+  top: 170rpx;
+}
+
+.snake {
+  position: absolute;
+  width: 100%;
+  font-family: "PingFang-SC-Bold";
+  color: #ffe900;
+  top: 66%;
+  font-size: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.state-imageall {
+  height: 405rpx;
+  position: absolute;
+  width: 700rpx;
+  top: 356rpx;
+  left: 26rpx;
+  right: 26rpx;
+}
+
+.stage-image {
+  width: 140rpx;
+  height: 130rpx;
+}
+
+.stage {
+  position: absolute;
+  top: 536rpx;
+  left: 168rpx;
+}
+
+.stagea {
+  position: absolute;
+  top: 448rpx;
+  left: 378rpx;
+}
+
+.stageb {
+  position: absolute;
+  top: 1060rpx;
+  left: 0;
+  right: 0;
+  font-family: 'PingFang-SC-Medium';
+  display: flex;
+  font-size: 28rpx;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stagec {
+  position: absolute;
+  top: 886rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.staged {
+  position: absolute;
+  top: 824rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stageb-image {
+  margin-right: 10rpx;
+  width: 35rpx;
+  height: 37rpx;
+}
+
+.stagec-image {
+  width: 140rpx;
+  height: 130rpx;
+}
+
+.staged-image {
+  width: 300rpx;
+  height: 300rpx;
+}

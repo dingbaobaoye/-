@@ -1,0 +1,20 @@
+{
+  "pages":[   
+    "pages/index/index",
+    "pages/playup/playup",
+    "pages/heart/heart",
+    "pages/adventure/adventure",
+    "pages/rotate/rotate",
+    "pages/ratiosize/ratiosize",
+    "pages/dice/dice",
+    "pages/playdown/playdown",
+    "pages/qibajiu/qibajiu",
+    "pages/outline/outline"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喝酒小程序",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,14 @@
+/**app.wxss**/
+
+.terminal_all{
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(25, 21, 21, 0.6);
+  justify-content: center;
+  align-items: center;
+}

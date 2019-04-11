@@ -1,0 +1,7 @@
+
+<view class='rotateBj' style='background-image:url({{rotateBj}})'>
+  <image class='title' src='{{titleImg}}'></image>
+  <text class='tipsText'>{{tipsText}}</text>
+ <image class='startBtn' src='{{start?startImg:continueImg}}' bindtap='start'></image>
+  <text class='footText'>香浓烈酒，切忌不要贪杯喔！</text>
+</view>

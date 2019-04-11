@@ -1,0 +1,7 @@
+<view class='container' style="background:url('{{picUrl}}');background-size:100% 100%;">
+  <view class='show-viewa'>
+  <view class='viewa' wx:for="{{lists}}" wx:key="" data-index='{{index}}' bindtap='goToWhere'>
+    <image src='{{item}}'></image>
+  </view>
+  </view>
+</view>

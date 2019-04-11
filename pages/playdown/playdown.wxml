@@ -1,0 +1,5 @@
+<view class="container">
+  <text style="height:200rpx;display:block;">{{con}}</text>
+  <button type='primary' disabled='{{disabled}}' style='margin-bottom:40px;' bindtap='startSetInter'>开始</button>
+  <button type='primary' bindtap='endSetInter'>结束</button>
+</view>

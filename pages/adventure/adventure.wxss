@@ -1,0 +1,42 @@
+/* pages/rotate/rotate.wxss */
+page{
+  height:100%;
+  padding:0;
+
+}
+.rotateBj{
+  width:100%;
+  height:100%;
+  background-size:100% 100%;
+  box-sizing:border-box;
+  padding:95rpx 50rpx 0 50rpx;
+  overflow: hidden;
+}
+.title{
+  display: block;
+  width: 397rpx;
+  height: 182rpx;
+  margin: 0 auto;
+}
+.tipsText{
+  display: block;
+  height:160rpx;
+  color: #ffe139;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 180rpx;
+}
+.footText{
+  position: absolute;
+  width:calc(100% - 100rpx);
+  color: #ffe139;
+  font-size: 24rpx;
+  text-align: center;
+  bottom:100rpx;
+}
+.startBtn{
+  width:249rpx;
+  height:240rpx;
+  display: block;
+  margin: 100rpx auto 0; 
+}

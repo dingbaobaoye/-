@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container" style="background:url('{{picUrl}}');background-size:100% 100%;">
+  <view class='viewa' bindtap='goUp' style="background:url('{{playUp}}');background-size:100% 100%;">
+    <text>线上游戏</text>
+  </view>
+  <view class='viewa' bindtap='goDown' style="background:url('{{playDown}}');background-size:100% 100%;">
+    <text>线下游戏</text>
+  </view>
+</view>

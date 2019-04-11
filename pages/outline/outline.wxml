@@ -1,0 +1,20 @@
+<view class="outlinebj" style="background-image:url(/image/outlinebj.png)">
+  <swiper indicator-dots='{{swiper.indicatorDots}}' circular="{{swiper.circular}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" current="{{swiper.current}}" bindchange="changeSwiper">
+    <block wx:for="{{swiper.contentUrls}}">
+      <swiper-item>
+        <view>
+            <text class="Title">{{item.title}}</text>
+            <text class="chopsticks"  style="background-image:url({{item.img}});width:{{item.width}}"></text>
+            <view class='gameContent'>
+              <text>{{item.content}}</text>
+            </view>
+         </view>
+    </swiper-item>
+    </block>
+  </swiper>
+  <view class="pageBtn">
+    <image class="left_button" src="{{showLeft?'/image/left_button.png':''}}"  bindtap='{{showLeft?"prevImg":""}}'></image>
+    <image class="right_button" src="{{showRight?'/image/right_button.png':''}}"  bindtap='{{showRight?"nextImg":""}}'></image>
+  </view>
+</view>
+

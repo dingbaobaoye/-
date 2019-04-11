@@ -1,0 +1,25 @@
+page{
+  font-family: "PingFang-SC-Bold";
+  background:gainsboro;
+}
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.viewa{
+  width: 436rpx;
+  height: 132rpx;
+  margin: 44rpx;
+  font-size: 60rpx;
+  color: white;
+  font-family: "MicrosoftYaHei-Bold";
+  text-align: center;
+  padding-top: 20rpx;
+}

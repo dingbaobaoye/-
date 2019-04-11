@@ -1,0 +1,149 @@
+/* pages/qibajiu/qibajiu.wxss */
+
+page {
+  font-family: "PingFang-SC-Bold";
+  background: gainsboro;
+}
+.terminal{
+  position: relative;
+}
+.music{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.container {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+}
+.imageshow-han{
+  width: 650rpx;
+  height: 700rpx;
+}
+.imageshow-deleate{
+  position: absolute;
+  right: 18rpx;
+  top: 18rpx;
+  width: 26rpx;
+  height: 26rpx;
+}
+.contain-right {
+  position: fixed;
+  right: 0;
+  z-index: 444;
+  top: 100rpx;
+  width: 46rpx;
+  height: 124rpx;
+  font-weight: 500;
+  font-size: 30rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  background: #FEC600;
+  color: #C5701D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-viewb {
+  color: white;
+  font-size: 28rpx;
+  font-family: "PingFang-SC-Medium";
+  text-align: center;
+  letter-spacing: 2rpx;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+}
+.snake{
+  position: absolute;
+  width: 100%;
+  font-family: "PingFang-SC-Bold";
+  color: #FFE900;
+  top: 66%;
+  font-size: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.snakea{
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  top:86%;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.state-imageall{
+  height:420rpx;
+  position: absolute;
+  width: 418rpx;
+  top: 30%;
+  left: 168rpx;
+}
+.stage-image{
+  width: 82rpx;
+  height: 100rpx;
+}
+.stage {
+  position: absolute;
+  top: 43%;
+  left: 282rpx;
+}
+.stagea{
+  position: absolute;
+  top: 42.7%;
+  left: 408rpx;
+}
+.stageb{
+  position: absolute;
+  top: 76.5%;
+  left: 330rpx;
+}
+.stageb-image{
+  width: 84rpx;
+  height: 90rpx;
+}
+/* 
+.club {
+  position: absolute;
+  height: 70rpx;
+  width: 70rpx;
+  background: red;
+  transform-style: preserve-3d;
+  transform: rotateX(40deg) rotateY(40deg);
+  animation:aa 3s ease infinite; 
+ 
+} */
+
+/* .club view {
+  background: red;
+  width: 70rpx;
+  height:70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+} */
+
+/* 分别创建骰子的六个面 */
+/* 
+.right {
+  transform: rotateY(90deg) translateZ(40px) translateY(-28.5px) translateX(8.5px);
+}
+
+.top {
+  transform: rotateX(90deg)  translateZ(37px) translateX(15px) translateY(0px) ;
+}
+ */

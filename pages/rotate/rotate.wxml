@@ -1,0 +1,27 @@
+<view class='rotateBj' style='background-image:url({{rotateBj}}'>
+  <image class='title' src='{{bannerImg}}'></image>
+  <text class='rule' bindtap='ruleWay'>规\n则</text>
+
+  <view class='zp'>
+      <view class='asideImg' style='background-image:url({{imgUrl}})'>
+        <image class='cImg' animation="{{animationData}}" src='{{cImg}}'></image> 
+        <!-- <image class='jImg'  src='/image/pointer@2x.png'></image>  -->
+        <image class='zImg' src='{{zImg}}' bindtap='rotate'></image>     
+      </view>
+  </view>
+
+
+
+  <text class='footText'>香浓烈酒，切忌不要贪杯喔！</text>
+
+    <view class='ruleTips' wx:if="{{isShow}}">
+      <view class='ruleTitle'>
+          <text>游戏规则</text>
+          <image class='closeTips' bindtap='closeTips' src='{{closeImg}}'></image>
+      </view>
+        <text class='ruleContent'>点击开始抽奖后，指针最后指向区域的
+      内容即为本次游戏的结果！</text>
+    </view>
+
+</view>
+

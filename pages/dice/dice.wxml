@@ -1,0 +1,65 @@
+<view class='terminal_all' hidden='{{terminal}}'>
+  <view class='terminal' style="background:url('{{invitebacka}}');background-size:100% 100%;">
+    <image src='{{deleate}}'  catchtap='xiaoshi' class='imageshow-deleate' mode='scaleToFill'></image>
+    <view class='ter-viewa'>游戏规则</view>
+    <scroll-view class='scroll-view' scroll-y>
+      <view class='ter-viewb'>所有玩家同时打开喝酒游戏小程序，选择大话骰玩法，选择人数后开始游戏。事先约定好游戏起始者，然后按照游戏参与者座位的顺时针或逆时针进行游戏轮次。（下文以X表示任意数量，Y表示面向天的骰子数字）</view>
+      <view class='ter-viewc'>
+        <block wx:for="{{lists}}" wx:key>
+         <view class='ter-viewd'>
+          <text>{{item.title}}</text>
+          <text>{{item.content}}</text>
+         </view>
+         </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<view class='container' style="background:url('{{inviteback}}');background-size:100% 100%;">
+<image bindtap='closemusic' src='{{music?openmusic:closemusic}}' class='music'></image>
+  <view class='show-viewa'>
+    <view class='contain-right' catchtap='showRole'>
+      <text>规</text>
+      <text>则</text>
+    </view>
+    <view class='show-viewb'>
+      <image src='{{shadow}}' class='shadow-image'></image>
+    </view>
+   
+    <view class="bigBox">
+      <image wx:if="{{dShow}}" src="{{ltImg}}" class='dShow'></image>
+      <image wx:if="{{dShow}}" src="{{rbImg}}" class='dShow2'></image>
+      <view class='show-viewd' wx:if='{{openOrclose}}'  animation="{{animationData}}">
+         <image src='{{toy}}' class='state-imageall'></image>
+      </view>
+    </view>
+    <view class='show-viewc' wx:if='{{openOrclose}}'>
+      <image src='{{wavedice}}' class='stagec-image'></image>
+    </view>
+    <view class='show-viewe' wx:if='{{!openOrclose}}' bindtap='openCover'>
+      <image src='{{cover}}' class='stagee-image'></image>
+    </view>
+    <view class='show-viewf' wx:if='{{!openOrclose}}'>
+      <image src='{{plate}}' class='stagef-image'></image>
+    </view>
+
+    <view class="stageaa" wx:if='{{!openOrclose}}'>
+      <image src='{{pica}}' class='stage-image' mode='scaleToFill'></image>
+    </view>
+    <view class="stageab" wx:if='{{!openOrclose}}'>
+      <image src='{{picb}}' class='stage-image' mode='scaleToFill'></image>
+    </view>
+      <view class="stageac" wx:if='{{!openOrclose}}'>
+      <image src='{{picc}}' class='stage-image' mode='scaleToFill'></image>
+    </view>
+      <view class="stagead" wx:if='{{!openOrclose}}'>
+      <image src='{{picd}}' class='stage-image' mode='scaleToFill'></image>
+    </view>
+      <view class="stageae" wx:if='{{!openOrclose}}'>
+      <image src='{{pice}}' class='stage-image' mode='scaleToFill'></image>
+    </view>
+    <view class="stageb" hidden='{{orshow}}'>
+      <image  bindtap='{{flag?"":"openCover"}}' src='{{openOrclose==true? waveing : closeing}}' class='stageb-image' mode='scaleToFill'></image>
+    </view>
+  </view>
+</view>

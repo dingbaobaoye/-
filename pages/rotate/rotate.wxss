@@ -1,0 +1,104 @@
+/* pages/rotate/rotate.wxss */
+page{
+  height:100%;
+  padding:0;
+
+}
+.rotateBj{
+  width:100%;
+  height:100%;
+  background-size:100% 100%;
+  box-sizing:border-box;
+  padding:95rpx 50rpx 0 50rpx;
+  overflow: hidden;
+}
+.title{
+  height: 198rpx;
+}
+.rule{
+  position:fixed;
+  right: 0;
+  top:100rpx;
+  width:44rpx;
+  height:124rpx;
+  background-color: #fec600;
+  font-size: 30rpx;
+  color: #c5701d;
+  text-align:center;
+  border-radius: 10rpx 0 0 10rpx;
+  line-height: 60rpx;
+}
+.ruleTips{
+  position:absolute;
+  width: calc(100% - 100rpx);
+  top:400rpx;
+  background:rgba(2,2,2,.6);
+  color: #fff;
+  box-sizing: border-box;
+  font-size:32rpx;
+}
+.closeTips{
+  width:26rpx;
+  height:26rpx;
+  position: absolute;
+  right:14rpx;
+  top: 14rpx;
+}
+.ruleTitle{
+ position: relative;
+ padding:40rpx 0 20rpx 0;
+ text-align: center;
+}
+.ruleTitle image{
+  position: absolute;
+  right:14rpx;
+  top: 14rpx;
+}
+.ruleContent{
+  display: block;
+  padding: 20rpx 40rpx 40rpx 40rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.footText{
+  position: absolute;
+  width:calc(100% - 100rpx);
+  color: #ffe139;
+  font-size: 24rpx;
+  text-align: center;
+  bottom:100rpx;
+}
+.zp{
+  width:560rpx;
+  height:560rpx;
+  background: linear-gradient(#cc3333,#990000);
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.asideImg{
+  width:536rpx;
+  height:536rpx;
+  margin:12rpx auto;
+  background-size:100% 100%;
+  position: relative;
+  padding: 29rpx;
+  box-sizing: border-box;
+  position:relative;
+}
+.cImg{
+  display: block;
+  width:478rpx;
+  height: 478rpx;
+  margin:0 auto;
+}
+.zImg{
+  position: absolute;
+  width:133rpx;
+  height:179rpx;
+  background-size:100% 100%; 
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
